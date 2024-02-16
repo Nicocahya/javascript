@@ -1,13 +1,24 @@
-var item = prompt('masukkan nama makanan / minuman : \n (contoh: nasi, daging, susu, hamburger, softdrink )');
+// var item = prompt('masukkan nama makanan / minuman : \n (contoh: nasi, daging, susu, hamburger, softdrink )');
 
-switch (item) {
-  case 'nasi':
-  case 'daging':
-  case 'susu':
-    alert('makanan / minuman SEHAT');
-    break;
-  case 'hamburger':
-  case 'softdrink':
-    alert('makanan / minuman TIDAK SEHAT');
-    break;
+// switch( item ) {
+//     case'nasi':
+//     case'daging':
+//     case'susu':
+//         alert('makanan / minuman SEHAT');
+//         break;
+//     case'mie':
+//     case'gorengan':
+//     case'soda':
+//         alert('makanan / minuman TIDAK SEHAT');
+//         break;
+// }
+
+var s = '';
+for (var i = 10; i > 0; i--) {
+  for (var j = 0; j < i; j++) {
+    s += '* ';
+  }
+
+  s += '\n';
 }
+console.log(s);
